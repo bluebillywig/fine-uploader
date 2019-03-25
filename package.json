@@ -1,8 +1,8 @@
 {
-  "name": "fine-uploader",
-  "title": "Fine Uploader",
+  "name": "@blue-billywig/fine-uploader",
+  "title": "Blue Billywig Fine Uploader",
   "main": "lib/traditional.js",
-  "types" : "typescript/fine-uploader.d.ts",
+  "types": "typescript/fine-uploader.d.ts",
   "version": "5.16.4",
   "description": "Multiple file upload plugin with progress-bar, drag-and-drop, direct-to-S3 & Azure uploading, client-side image scaling, preview generation, form support, chunking, auto-resume, and tons of other features.",
   "keywords": [
@@ -35,13 +35,13 @@
     "type": "git",
     "url": "git://github.com/bluebillywig/fine-uploader.git"
   },
-  "author": "Ray Nicholus",
+  "author": "Blue Billywig",
   "contributors": [
-    {
-      "name": "Ray Nicholus",
-      "url": "http://raynicholus.com"
-    }
+    "Blue Billywig (https://bluebillywig.com)"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bluebillywig/fine-uploader/issues"
@@ -64,5 +64,10 @@
     "lint": "make lint",
     "start": "make start-local-dev",
     "test": "make -i lint && make test"
+  },
+  "homepage": "https://github.com/bluebillywig/fine-uploader#readme",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
   }
 }
