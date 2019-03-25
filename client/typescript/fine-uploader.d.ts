@@ -3,7 +3,7 @@
 // Definitions by: Sukhdeep Singh <https://github.com/SinghSukhdeep>
 
 
-declare module "fine-uploader/lib/core" {
+declare module "@blue-billywig/fine-uploader/lib/core" {
 
 
     export class FineUploaderBasic {
@@ -2232,7 +2232,7 @@ declare module "fine-uploader/lib/core" {
 
 
 
-declare module "fine-uploader" {
+declare module "@blue-billywig/fine-uploader" {
 
     import {
         FineUploaderBasic,
@@ -2692,7 +2692,7 @@ declare module "fine-uploader" {
 }
 
 
-declare module "fine-uploader/lib/azure" {
+declare module "@blue-billywig/fine-uploader/lib/azure" {
 
     import {
         FineUploader as FineUploaderCore,
@@ -3071,7 +3071,7 @@ declare module "fine-uploader/lib/azure" {
 }
 
 
-declare module "fine-uploader/lib/s3" {
+declare module "@blue-billywig/fine-uploader/lib/s3" {
 
     import {
         FineUploader as FineUploaderCore,
