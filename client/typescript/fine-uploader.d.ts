@@ -2245,7 +2245,7 @@ declare module "@blue-billywig/fine-uploader" {
         TextOptions,
         PromiseOptions,
         CustomResizerCallBack
-    } from 'fine-uploader/lib/core';
+    } from '@blue-billywig/fine-uploader/lib/core';
 
     export class FineUploader extends FineUploaderBasic {
 
@@ -2702,7 +2702,7 @@ declare module "@blue-billywig/fine-uploader/lib/azure" {
         UIPasteOptions,
         UIScalingOptions,
         UITextOptions
-    } from 'fine-uploader';
+    } from '@blue-billywig/fine-uploader';
 
     import {
         FineUploaderBasic as FineUploaderBasicCore,
@@ -2712,7 +2712,7 @@ declare module "@blue-billywig/fine-uploader/lib/azure" {
         CoreOptions,
         ResumableFileObject,
         PromiseOptions
-    } from 'fine-uploader/lib/core';
+    } from '@blue-billywig/fine-uploader/lib/core';
 
 
 
@@ -3081,7 +3081,7 @@ declare module "@blue-billywig/fine-uploader/lib/s3" {
         UIPasteOptions,
         UIScalingOptions,
         UITextOptions
-    } from 'fine-uploader';
+    } from '@blue-billywig/fine-uploader';
 
     import {
         FineUploaderBasic as FineUploaderBasicCore,
@@ -3092,7 +3092,7 @@ declare module "@blue-billywig/fine-uploader/lib/s3" {
         ResumableFileObject,
         CoreEvents,
         PromiseOptions
-    } from 'fine-uploader/lib/core';
+    } from '@blue-billywig/fine-uploader/lib/core';
 
 
 
